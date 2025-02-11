@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AU+VIC+Guides&family=Playwrite+NL&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Kajal Agrawal</div>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <ul class="navbar">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact_me">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+<main>
+      <!-- Home Content here -->
+      <section id="home">
+        <div id="home_content_left">
+          <h1>Hi,This is Rumy Rastogi....A Web Developer!!</h1>         
+            <p>
+              A skilled web developer, crafting and managing websites and web
+              applications to ensure the success of the entire product with
+              finesse.I am a hardworking and determined individual, ready to
+              embrace new challenges. Despite a 12-year gap in my professional
+              career, I bring a wealth of life experience, resilience, and a
+              commitment to growt
+            </p>
+          
+          <div class="text_btn">
+            <button type="button" class="btn btn-outline-dark">Hire Me!</button>
+            <button type="button" class="btn btn-outline-dark" onclick="downloadCV()"  >Download CV!</button>
+
+          </div>
+                   
+        </div>
+        <div id="home_content_right">
+          <img
+            src="Images/mypic.png"
+            class="rounded mx-auto d-block"
+            alt="My Picture" />
+        </div>
+      </section>
+
+<!-- About Section-->
+<section id="about">
+  <h1 class="heading">About Me</h1>
+  <div class="about_container">
+  <div class="about_left">
+    <img
+    src="Images/mypic.png"
+    class="rounded mx-auto d-block"
+    alt="My Picture"
+  />
+  </div>
+  <div class="about_right">
+    
+    <h2>A Web <span>Developer</span></h2>
+    <p>
+      Hi, This is Rumy Rastogi,Currenly i am working as a Mom located in
+      Cumming GA USA.In my past i have worked on C#,Asp.net,Sql server 2005,Html,Javascript,Jquery.
+      But now a days i am brushing up my skills in webdevelopent like HTML5,Javascript,
+      Sql Server,React.js ,Node.js,encompassing both frontend and backend development.I am a dedicated and quick learner, 
+      always eager to take on new challenges and rapidly acquire new skills.
+    </p>
+    </div>
+    </section>
+
+    <!--Section for Skills  -->
+    <section id="skills">
+      <h1>My Skills</h1>
+      <p>HTML</p>
+
+      <div class="container_skills">
+        <div class="skills html">90%</div>
+      </div>
+
+      <p>CSS</p>
+      <div class="container_skills">
+        <div class="skills css">80%</div>
+      </div>
+
+      <p>JavaScript</p>
+      <div class="container_skills">
+        <div class="skills js">65%</div>
+      </div>
+
+      <p>Bootstrap</p>
+      <div class="container_skills">
+        <div class="skills bootstarp">50%</div>
+      </div>
+
+      <p>Node.js</p>
+      <div class="container_skills">
+        <div class="skills node">10%</div>
+      </div>
+
+      <p>Reactjs</p>
+      <div class="container_skills">
+        <div class="skills react">3%</div>
+      </div>
+    </section>
+
+    
+
+    <!--Section for Projects  -->
+    <section id="projects">
+      <h1>Projects</h1>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="Images/maxresdefault.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="Images/Myportfolio.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="Images/SignUp.jpg" alt="Third slide">
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <!--Section for Contact  -->
+    <section id="contact_me">
+      <h1>Contact Me</h1>
+      <div class="container_contact">        
+        <div class="contact_left">
+          <form class="contact_form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn-outline-dark">Send Message</button>
+            
+          </form>
+        </div>
+        <div class="contact_right">
+          <h3>Contact Information:</h3>
+          <p><i class="bi bi-telephone-fill"></i>  +1 404 290 9496</p>
+          <p><i class="bi bi-envelope-at-fill"></i>  rumyrastogi@gmail.com</p>
+          <p><i class="bi bi-geo-alt-fill"></i> 123 laprele road,cumming ,Alpharetta ,GA </p>
+        </div>
+      </div>
+    </section>
+    </main>
+
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2025 Your Company. All Rights Reserved.</p>
+    </div>
+    <div class="footer-icons">
+        <a href="#" target="_blank"><i class="bi bi-facebook"></i></i></a>
+        <a href="#" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="#" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+    </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

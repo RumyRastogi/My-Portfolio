@@ -51,23 +51,23 @@ nav {
     cursor: pointer;
 }
 
-.navbar {
+#navbar {
     list-style: none;
     display: flex;
 }
 
-.navbar li {
+#navbar li {
     margin: 0 15px;
 }
 
-.navbar a {
+#navbar a {
     color: #fff;
     text-decoration: none;
     font-size: 1em;
 }
 
-.navbar a:hover,
-.navbar a:active {
+#navbar a:hover,
+#navbar a:active {
     font-size: 15px;
     color: #9c0505;
     border-bottom: 3px solid white;
@@ -259,7 +259,7 @@ footer {
         display: block;
     }
 
-    .navbar {
+    #navbar {
         display: none;
         flex-direction: column;
         background: black;
@@ -273,11 +273,11 @@ footer {
         text-transform: capitalize;
     }
 
-    .navbar li {
+    #navbar li {
         margin: 10px 0;
     }
 
-    .navbar a {
+    #navbar a {
         font-size: 1.2em;
     }
 

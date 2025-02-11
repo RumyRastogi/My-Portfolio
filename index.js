@@ -1,10 +1,10 @@
 function toggleMenu() {
-  var menu = document.getElementsByClassName("navbar");
+  var menu = document.getElementById("navbar");
 
-  if (menu[0].style.display == "block") {
-    menu[0].style.display = "none";
+  if (menu.style.display == "block") {
+    menu.style.display = "none";
 } else {
-    menu[0].style.display = "block";
+    menu.style.display = "block";
 }
 
 
@@ -28,8 +28,5 @@ function downloadCV(){
 
 }
 
-$('.carousel').carousel({
-  interval: 2000
-})
 
 
